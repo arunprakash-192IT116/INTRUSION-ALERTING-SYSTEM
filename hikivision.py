@@ -11,8 +11,8 @@ def person():
 def condition():
     if ((classid-1) == 0):
         print(classnames[classid-1])
-        #client = Client("ACa357037cdd7c244ff248c4c5da8b1710", "73417fb2d06355908900060b35521829 ")
-        #client.messages.create(to=["+916380325845"],
+        client = Client("ACa357037cdd7c244ff248c4c5da8b1710", "73417fb2d06355908900060b35521829 ")
+        client.messages.create(to=["+916380325845"],
                                #from_="+12185262623", body="A PERSON IS STANDING IN FRONT OF THE DOOR")
         print("message is send to the phone number:638032****. check your phone")
     else:
